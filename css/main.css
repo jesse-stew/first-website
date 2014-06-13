@@ -1,0 +1,251 @@
+/* treehouse left off at: adjust the profile page and header*/
+
+
+
+/**********
+GENERAL
+**********/
+
+a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+img {
+	max-width: 100%;	
+}
+
+
+
+
+/**********
+HEADING
+**********/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 3px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	margin: 15px 0;
+	font-size: 2.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+
+
+
+/**********
+NAVIGATION
+**********/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav a {
+	font-size: 1em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 400;
+	padding: 15px 10px;
+}
+
+
+
+
+/**********
+PAGE: PORTFOLIO
+**********/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #51b7e0;
+	text-align: center;
+}
+
+
+
+
+/**********
+PAGE: ABOUT
+**********/
+
+.abouttext {
+	text-align: center;
+}
+
+
+
+
+/**********
+PAGE: CONTACT
+**********/
+
+#contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+#contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;	
+}
+
+#contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+#contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+#contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+
+
+
+/**********
+PAGE: COOKING
+**********/
+
+#cooking li a img {
+	border-radius: 10%;
+	width: 45%;
+	padding: 10px 0 0 0;
+	display: inline-block;
+}
+
+#cooking li {
+	list-style: none;
+}
+
+
+
+
+/**********
+PAGE: CODING
+**********/
+
+#coding li a img {
+	border-radius: 10%;
+	width: 45%;
+	padding: 10px 0 0 0;
+	display: inline-block;
+}
+
+#coding li {
+	list-style: none;
+}
+
+
+
+/**********
+FOOTER
+**********/
+
+footer {
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #000;
+	clear: both;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+
+/**********
+COLORS
+**********/
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #788596;
+}
+
+header {
+	border-color: #788596; 
+}
+
+/* logo text */
+h1 {
+	color: #000000;
+} 
+
+/* nav link */
+nav a, nav a:visited {
+	color: #788596;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #51b7e0;
+}
+
+/*contact links*/
+#contact-info a, #contact-info a:visited {
+	color: #000;
+}
+
+/* hover contact link */
+#contact-info a:hover {
+	color: #51b7e0;
+}

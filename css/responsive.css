@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) {
+
+	/**********
+	TWO COLUMN LAYOUT
+	**********/
+
+	#primary {
+		width: 50%;
+		float: left;
+	}
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+	/**********
+	THREE COLUMN LAYOUT
+	**********/
+
+	#gallery li {
+		width: 28.3333%;
+	}
+
+}
+
+
+@media screen and (min-width: 660px) {
+
+}
